@@ -1,0 +1,12 @@
+diff b/w paired & unpaired tag
+diff b/w block & inline tag
+6 heading tags
+explain marquee tag properties - 10 total
+types list tag 
+ul tag types =
+ol tag types =
+diff b/w cellspacing & cellpadding
+rowspan & colspan
+diff b/w html & html5
+use of iframe tag
+audio & video tag
