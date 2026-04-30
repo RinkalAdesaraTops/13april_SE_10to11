@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            height: 300px;
+            width: 600px;
+            border: 2px solid black;
+            display: flex;
+            /* row row-reverse column column-reverse */
+            /* flex-direction: column-reverse;  */
+            /* nowrap */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-flow:column wrap-reverse ; */
+            /* flex-start flex-end center space-around between evenly */
+            /* justify-content: space-evenly; */
+            /*  flex-start flex-end center */
+            align-items: baseline;
+            /* gap:10px; */
+            /* row-gap: 5px;
+            column-gap:15px; */
+        }
+        .box{
+            height: 80px;
+            width: 80px;
+            border: 1px solid blue;
+        }
+        .b1{
+            order:3;
+            flex-grow: 2;
+        }
+        .b2{
+            order:2
+        }
+        .b3{
+            order: 1;
+            align-self: stretch;
+        }
+        .b4{
+            flex-shrink: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">1</div>
+        <div class="box b4">2</div>
+        <div class="box b1">3</div>
+        <div class="box">4</div>
+        <div class="box b2">5</div>
+        <div class="box b3">6</div>
+        <div class="box ">6</div>
+        <div class="box ">6</div>
+        <div class="box ">6</div>
+
+        <!-- <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div> -->
+    </div>
+</body>
+</html>
